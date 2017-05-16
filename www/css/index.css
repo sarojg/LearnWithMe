@@ -27,7 +27,7 @@ body {
  
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:22px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -35,18 +35,18 @@ body {
     width:100%;
 	
 }
-#container {margin-left:20%;margin-right:2%;}
+#container {margin-left:2%;margin-right:2%;}
 .element1 {display:inline-block;margin-right:10px;} 
 .element2 {display:inline-block;} 
 .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
 background: url('../img/bgimage.jpg') no-repeat center left; background-size: 100% 100% !important; width: 100%; height: auto !important; min-height:100%;
 color:#FFF;text-decoration:none;
 }
-
-
+.ui-mobile label{ font-size:22px;}
+.ui-input-text input { padding:1px;}
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    background:url(../img/logo.jpg) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
@@ -119,14 +119,14 @@ h1 {
 }
 
 .title {
-    font-size: 30px;
-	margin-top: 40px;
+    font-size: 50px;
+	margin-top: 75px;
 }
 .title-sub {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 25px;
+    margin-bottom: 50px;
     font-weight: 300;
-    color: #282c35;
+    color: #FFFFFF;
 }
 .mr-auto {
     margin-left: auto;
@@ -135,6 +135,8 @@ h1 {
 
 .align-c {
     text-align: center;
+.align-l {
+    text-align: left;
 }
 .w-75 {
     width: 75%;
